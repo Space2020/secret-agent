@@ -17,7 +17,7 @@ div{
 
 .header{
   background-color: #000;
-  height: 50px;
+  height: 55px;
   width: 100%;
 }
 
@@ -39,15 +39,18 @@ div{
   background-repeat: no-repeat;
   width: 100%;
   display: block;
-  height: 400px;
+  background-position: center;
+  background-size: cover;
+  height: 550px;
 }
 
 h2{
   display: inline-block;
   color: #fff;
-  font-size: 18px;
-  padding-bottom: 15px;
+  font-size: 20px;
+  padding-bottom: 20px;
   letter-spacing: 0.5px;
+  font-weight: 500;
   vertical-align: middle;
 }
 
@@ -85,6 +88,28 @@ img{
   height: 100px;
 }
 
+.black-box{
+  margin-top: 200px;
+  margin-left: 60px;
+  width: 525px;
+  height: 275px;
+  background-color: #000;
+  color: #fff;
+}
+
+h1{
+  font-size: 42px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-left: 70px;
+}
+
+.black-box h4{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-left: 70px;
+}
 
 /* Footer Section */
 
